@@ -16,17 +16,8 @@ public class Problema5{
                 }
             }continue;
 
-        }
-        for(String v:values){
-            System.out.print(v + " ");
-        }
-        int[] values2 = new int[values.length];
-        for(int i = 0; i< values.length; i++){
-            values2[i] = Integer.parseInt(values[i]);
-        }
-        for(int v:values2){
-            System.out.print(v + " ");
-        }
+        }      
+     
         while(true) {
             int value = Integer.parseInt(values[init]);  
             System.out.println(value);  
